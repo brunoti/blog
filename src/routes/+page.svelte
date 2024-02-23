@@ -11,10 +11,10 @@
 
 <section class="w-full flex flex-row">
 	<div class="block space-y-5">
-		<h2 class="block text-2xl text-white font-bold tracking-wide">
+		<h2 class="block text-2xl text-white font-bold tracking-wide text-center md:text-left">
 			Hi, I'm Bruno. <small class="text-accent">a.k.a. bop</small>
 		</h2>
-		<div class="flex flex-row space-x-5">
+		<div class="flex flex-col-reverse justify-center md:flex-row space-x-5 sm:justify-start">
 			<section class="grow">
 				<article class="block text-white text-base tracking-wide mb-8">
 					Welcome to my personal website, where the world of software development unfolds. I am a
@@ -34,7 +34,9 @@
 					through my writings and social media, I share insights and experiences from my coding
 					journey.
 				</article>
-				<section class="grow space-x-5 flex flex-row text-secondary">
+				<section
+					class="grow space-x-5 flex flex-row text-secondary justify-center md:justify-start"
+				>
 					<a target="_blank" href="https://github.com/brunoti"><Github /></a>
 					<a target="_blank" href="https://www.linkedin.com/in/bruno-oliveira-de-paula-7175699a/">
 						<Linkedin />
@@ -44,7 +46,7 @@
 					<a target="_blank" href="https://x.com/original_bop"><X /></a>
 				</section>
 			</section>
-			<aside class="w-[170px] shrink-0">
+			<aside class="w-[170px] shrink-0 mb-4">
 				<img src="{base}/bop.jpeg" alt="bop" class="w-full block rounded-md" />
 			</aside>
 		</div>

@@ -53,3 +53,15 @@ So neil has a bunch of other features like project scaffolding, building, testin
 ## Thanks!
 
 In closing, I hope this introduction to the neil CLI was helpful in simplifying your Clojure dependency workflow. A big thank you to the developers behind neil for creating a tool that streamlines common tasks. Please feel free to reach out if you have any other questions about using neil in your own projects.
+
+- 🌐 **Website:** [bop.systems](http://bop.systems/)
+- 📧 **Email:** [brunooliveira37@hotmail.com](https://mailto:brunooliveira37@hotmail.com/)
+
+📱 **Social Media:**
+
+*   [Twitter](https://twitter.com/original_bop)
+*   [LinkedIn](https://www.linkedin.com/in/bruno-oliveira-de-paula-7175699a/)
+*   [GitHub](https://github.com/brunoti)
+*   [dev.to](https://dev.to/bop)
+
+_You can also [buy me a coffee](https://www.buymeacoffee.com/bopdev) to support me, if you like what I do_

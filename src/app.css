@@ -3,7 +3,46 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: Inter, system-ui, sans-serif;
-  }
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 240 10% 3.9%;
+
+		--muted: 240 4.8% 95.9%;
+		--muted-foreground: 240 3.8% 46.1%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 240 10% 3.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 240 10% 3.9%;
+
+		--border: 240 5.9% 90%;
+		--input: 240 5.9% 90%;
+
+		--primary: 255 70% 9%;
+		--primary-foreground: 0 0% 98%;
+
+		--secondary: 40 81% 64%;
+		--secondary-foreground: 240 5.9% 10%;
+
+		--accent: 253 20% 47%;
+		--accent-foreground: 0 0% 100%;
+
+		--destructive: 0 72.2% 50.6%;
+		--destructive-foreground: 0 0% 98%;
+
+		--ring: 240 10% 3.9%;
+
+		--radius: 0.5rem;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+	}
 }

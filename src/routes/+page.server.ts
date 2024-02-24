@@ -1,6 +1,6 @@
-import * as A from 'fp-ts/Array';
-import * as O from 'fp-ts/Option';
-import { pipe, constTrue } from 'fp-ts/function';
+import * as A from 'fp-ts/lib/Array';
+import * as O from 'fp-ts/lib/Option';
+import { pipe, constTrue } from 'fp-ts/lib/function';
 import { PostMetadata, PostMetadataOrd } from '$lib/types';
 import type { PageServerLoad } from './$types';
 

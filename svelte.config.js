@@ -1,6 +1,6 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 import { mdsvex, escapeSvelte } from 'mdsvex';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { getHighlighter } from 'shiki';
 import rehypeExternalLinks from 'rehype-external-links';
 import remarkUnwrapImages from 'remark-unwrap-images';

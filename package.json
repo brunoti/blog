@@ -39,6 +39,7 @@
 		"@fontsource/jetbrains-mono": "^5.0.17",
 		"@fontsource/manrope": "^5.0.17",
 		"@jsdevtools/rehype-toc": "^3.0.2",
+		"@vercel/analytics": "^1.2.2",
 		"autoprefixer": "^10.4.16",
 		"clsx": "^2.1.0",
 		"fp-ts": "^2.16.2",

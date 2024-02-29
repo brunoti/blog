@@ -6,7 +6,14 @@
 </script>
 
 <svelte:head>
-	<title>bop - home</title>
+	<title>bop - software developer</title>
+	<meta property="og:title" content="bop - software developer" />
+	<meta property="og:image" content="/bop.png" />
+	<meta property="og:url" content="https://bop.systems" />
+	<meta
+		name="description"
+		content="Dedicated software developer passionate about functional programming. Expertise in JavaScript, TypeScript, React, React Native, with a love for SvelteKit. Sharing insights from coding journey at Kellton"
+	/>
 </svelte:head>
 
 <section class="w-full flex flex-row">

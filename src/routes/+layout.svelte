@@ -3,8 +3,10 @@
 	import { base } from '$app/paths';
 	import NavLink from './NavLink.svelte';
 	import { inject } from '@vercel/analytics';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	inject();
+	injectSpeedInsights();
 </script>
 
 <main class="w-full flex flex-col items-center h-screen">
